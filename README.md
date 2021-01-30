@@ -6,18 +6,16 @@
 ----
  
 ## Short Description
-This tutorial is an introduction to Geospatial Domain and it's analysis using python. Since almost all industries are more or less connected to Location and mapping, it is important to spread awareness and literate developers to understand different aspects of the GIS (Geographic Information System) industry.
-First Part of this series focuses on different GIS Data types and how to read them, This includes understanding different data formats such as *Shapefiles, GeoJSON, WKT, CSV , TIFF, GeoTIFF, etc.* . Users can actually read such files in their computers and be familiar with them.
-Second part of this series focuses on geospatial analysis with python. Users will first practice working with some core GIS functionalities using `GDAL` and `OGR` on the terminal (and later in python). After this, users will be familiarised with most widely used geospatial python libraries such as `pandas, geopandas, fiona, shapely, matplotlib, PySAL, rasterio` .
- 
-Complete  Series is divided into following subtopics :
+This tutorial is an introduction to Geospatial Domain and its analysis using python. Since almost all industries are more or less connected to Location and mapping, it is important to spread awareness and literate developers to understand different aspects of the GIS (Geographic Information System) industry. The first Part of this series focuses on different GIS Data types and how to read them, This includes understanding different data formats such as Shapefiles, GeoJSON, WKT, CSV, TIFF, GeoTIFF, etc. . Users can actually read such files on their computers and be familiar with them. The second part of this series focuses on geospatial analysis with python. Users will first practice working with some core GIS functionalities using GDAL and OGR on the terminal (and later in python). After this, users will be familiarised with the most widely used geospatial python libraries such as pandas, geopandas, fiona, shapely, matplotlib, PySAL, rasterio .
+
+Complete Series is divided into the following subtopics :
 1. Introduction to GIS, GIS Data formats
 2. Introduction and Installation of all Geospatial libraries in computer and in python environment
 3. Working with GDAL and OGR capabilities
 4. Spatial Operations and Relationships
-5. Vector data analysis and visualisation
-6. Raster Data analysis and visualisation
-7. Working with Interactive Map in python notebook
+5. Vector data analysis and visualization
+6. Raster Data analysis and visualization
+7. Working with Interactive Map in a python notebook
  
 ----
 ## Long Description

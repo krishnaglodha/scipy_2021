@@ -25,34 +25,31 @@ This series will be a brief introduction to the domain as well as advancement of
  
 <b>No Previous knowledge on GIS or geospatial field is required, little hands on approach on basic python would be better to have but not compulsion </b>
  
-The series will cover following topics, each of them can either be re-created on Jupyter notebook or in a python file as well, the data used in the workshop will be freely available to download and use.
- 
-### 1. Introduction to GIS, GIS Data formats
-Before getting our hands dirty by writing python code, we'll go through a brief introduction of the subject matter. It is very important to have working knowledge of the field so that you can build the logic (and thus, code) easily.
-We'll see some history, applications, use cases of GIS along with data formats which are used widely by most of the GIS applications
- 
-### 2. Setting up the Environment
-Attendees will need to download some installable softwares beforehand, links to which will be provided priorly along with how-to-do video. Apart from this, attendees can create an env using `environment.yml` file provided in the repository.
- 
-### 3. Working with GDAL and OGR capabilities
-Here, we start coding, but still not in python ! We'll spend some time getting comfortable with using command-line / terminal to perform some basic GIS operations. This section will be a huge time saver for developers in the future where they want to perform some quick actions on data, such as , converting data to different formats, changing Coordinate Systems, Getting information about data, etc.
- 
-### 4. Spatial Operation and Relations
-Real application of GIS is to enable users to perform queries or establish relations between different data sets based on location information. In this section, we'll have overview about different geospatial operations like :
-  1. Buffer, Overlaps
-  2. Contains, Within, Touches
-  3. Point in Polygon, Intersection, Crosses
-Once attendees understand the logic behind these operations in theory, we'll jump in the python
- 
-### 5. Vector data analysis and visualisation
-Vector data is like normal data (JSON, CSV, XML, etc) coupled with location information. In this series attendees will see how spatial analysis operations can be performed on such data using various libraries like `geopandas`,`shapely`,`pySAL`, and many more.
-We can see the data not only in just tabular format but also in picture by visualising this vector data on map. This topic will cover how to visualize the data with advanced options as well.
- 
-### 6. Raster data analysis and visualisation
-This is a very important skill to have as mostly raster files are huge in size. To perform some basic operations such as getting pixel values, fetching metadata, conversion of files libraries like `GDAL`,`Rasterio`,`Georaster` are used .
- 
-### 7. Interactive map visualisation in python
-Attendees will be able to create Interactive maps with additional data, ability to pan, etc. inside the notebook directly, this skill comes in handy when you want to test your geospatial results directly in python.
+The series will cover the following topics, each of them can either be re-created on Jupyter notebook or in a python file as well, the data used in the workshop will be freely available to download and use.
+
+## 1. Introduction to GIS, GIS Data formats
+Before getting our hands dirty by writing python code, we'll go through a brief introduction of the subject matter. It is very important to have a working knowledge of the field so that you can build the logic (and thus, code) easily. We'll see some history, applications, use cases of GIS along with data formats that are used widely by most of the GIS applications
+
+## 2. Setting up the Environment
+Attendees will need to download some installable software beforehand, links to which will be provided priorly along with a how-to-do video. Apart from this, attendees can create an env using the environment.yml file provided in the repository.
+
+## 3. Working with GDAL and OGR capabilities
+Here, we start coding, but still not in python! We'll spend some time getting comfortable with using the command-line / terminal to perform some basic GIS operations. This section will be a huge time saver for developers in the future where they want to perform some quick actions on data, such as converting data to different formats, changing Coordinate Systems, Getting information about data, etc.
+
+## 4. Spatial Operation and Relations
+The real application of GIS is to enable users to perform queries or establish relations between different data sets based on location information. In this section, we'll have an overview of different geospatial operations like :
+1. Buffer, Overlaps
+2. Contains, Within, Touches
+The point in Polygon, Intersection, Crosses Once attendees understand the logic behind these operations in theory, we'll jump in the python
+## 5. Vector data analysis and visualization
+Vector data is like normal data (JSON, CSV, XML, etc) coupled with location information. In this series, attendees will see how spatial analysis operations can be performed on such data using various libraries like geopandas,shapely,pySAL, and many more. We can see the data not only in just tabular format but also in pictures by visualizing this vector data on a map. This topic will cover how to visualize the data with advanced options as well.
+
+## 6. Raster data analysis and visualization
+This is a very important skill to have as most raster files are huge in size. To perform some basic operations such as getting pixel values, fetching metadata, conversion of files libraries like GDAL, Rasterio, Georaster are used.
+
+## 7. Interactive map visualization in python
+Attendees will be able to create Interactive maps with additional data, the ability to pan, etc. inside the notebook directly, this skill comes in handy when you want to test your geospatial results directly in python.
+
  
 ---
  
